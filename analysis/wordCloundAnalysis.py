@@ -70,7 +70,7 @@ stopwords.add("还是")
 
 #参数分别是指定字体、背景颜色、最大的词的大小、使用给定图作为背景形状
 
-wc = WordCloud(width=1024,height=768,background_color='white',
+wc = WordCloud(width=1024,height=768,background_color='yellow',
 
 	mask=backgroud_Image,font_path="/Users/dainping/Documents/simheittf/simhei.ttf",
 
@@ -94,6 +94,8 @@ plt.show()
 
 wc.to_file('wordClond')
 
+def start():
+	print("start")
 if __name__ == '__main__':
-	print()
+	start()
 

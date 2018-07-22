@@ -71,7 +71,7 @@ def plot():
 		visual_split_number=4)
 	geo.render("plot.html")
 
-def test():
+def start():
 	all_list(city)
 	plot()
 
@@ -79,6 +79,6 @@ def test():
 
 if __name__ == '__main__':
 
-	test()
+	start()
 
 
